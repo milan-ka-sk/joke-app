@@ -7,6 +7,8 @@ string interpolation: {{joke.setup}}
 property binding: [hidden]="joke.hide"
 input property binding (custom): [joke]="j" (@Input joke)
 output event binding: (click)="toggle(joke)"
+output properties on our custom components: <app-joke-form (jokeCreated)="addJoke($event)"> (@Output / EventEmitter / emit / $event)
+local template variables: <input type="text" #punchline>
 
 p. 34
 The way think about these two different ways of binding is in terms of inputs and outputs.

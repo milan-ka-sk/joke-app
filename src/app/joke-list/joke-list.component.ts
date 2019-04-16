@@ -17,8 +17,8 @@ export class JokeListComponent implements OnInit {
     ];
   }
 
-  toggle(joke) {
-    joke.hide = !joke.hide;
+  addJoke(joke: Joke) {
+    this.jokes.unshift(joke);
   }
 
   ngOnInit() {
