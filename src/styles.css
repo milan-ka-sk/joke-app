@@ -1,1 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+
+.card {
+    background: #eee;
+    padding: 20px;
+    margin: 40px auto;
+    max-width: 400px;
+}
