@@ -18,3 +18,7 @@ This is what we call one-way data binding, since data only flows one way, either
 
 # domain model
 p. 37 ... This class is what we call a Domain Model, it’s just a plain class which we will use to store data and functions.
+
+# deploy
+ng build --prod --base-href /ang/jokes
+.. creates dist folder
